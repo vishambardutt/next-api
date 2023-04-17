@@ -1,5 +1,5 @@
 import React from 'react'
-
+import User from "../components/user"
 const users = ({users}) => {
   return (
       <>
@@ -8,8 +8,7 @@ const users = ({users}) => {
             users.map((user)=>{
                   return(
                         <div key={user.id}>
-                             <p>{user.name}</p> 
-                              <p>{user.email}</p>
+                             <User user={user}/>
 
                         </div>
                   )
