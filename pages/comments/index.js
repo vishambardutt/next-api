@@ -36,8 +36,8 @@ function CommentPage() {
                   {comments.map((comment) => {
                         return (
                               <div key={comment.id}>
-                                    <h4>{comment.id}. {comment.text}</h4>
-                                    <p>{comment.desc}</p>
+                                    <p>{comment.id}. {comment.text}</p>
+                                    {/* <p>{comment.desc}</p> */}
                                     <hr></hr>
                               </div>
 

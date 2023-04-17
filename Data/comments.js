@@ -2,12 +2,12 @@ export let comments = [
       {
             id:1,
             text: 'This is title  for id first',
-            desc:'This is description for first ID'
+            // desc:'This is description for first ID'
       },
       {
             id:2,
             text: 'This is title for id second',
-            desc:'This is description for second ID'
+            // desc:'This is description for second ID'
       },
 
       // {
