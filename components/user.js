@@ -5,6 +5,7 @@ const User = ({user}) => {
     <>
     <p>{user.name}</p>
     <p>{user.email}</p>
+    <p>Street:{user.address.street}</p>
     </>
   )
 }
